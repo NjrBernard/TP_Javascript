@@ -1,0 +1,14 @@
+i=0;
+let tableau1 = [1, 15, -3, 0, 8, 7, 4, -2, 28, 7, -1, 17, 2, 3, 0, 14, -4];
+let tableau2 = [-1, 12, 17, 14, 5, -9, 0, 18, -6, 0, 4, -13, 5, 7, -2, 8, -1];
+let sommeTableaux = [];
+let s=0;
+
+while (i!=tableau1.length) {
+    s=tableau1[i]+tableau2[i];
+    i++;
+}
+i=0;
+sommeTableaux[i]=s;
+console.log("\n Somme des deux tableaux:");
+console.log(sommeTableaux);
